@@ -1,0 +1,30 @@
+@import "../../scss/colors";
+
+.employee {
+  width: 150px;
+  height: 50px;
+  border-radius: 13px;
+  margin: 20px;
+  background: $meteorite;
+  box-shadow: 15px 15px 30px $bunting, -15px -15px 30px $purple-heart;
+  position: relative;
+}
+
+.name {
+  color: $white;
+}
+
+.more {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  line-height: 20px;
+  border-radius: 13px;
+  background: #0e8fa6;
+  border-radius: 13px;
+  background: linear-gradient(145deg, $blue-chill, $blue-chill-dark);
+  box-shadow: 15px 15px 59px $deep-sea-green, -15px -15px 59px $bright-turquoise;
+  color: $white;
+  width: 20px;
+  height: 20px;
+}
