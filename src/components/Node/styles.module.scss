@@ -1,5 +1,12 @@
 @import "../../scss/colors";
 
+.container {
+  border-top: 1px solid rgba($picton-blue, 0.3);
+  margin: 0 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
 .employee {
   width: 150px;
   height: 50px;
@@ -20,7 +27,7 @@
   right: -10px;
   line-height: 20px;
   border-radius: 13px;
-  background: #0e8fa6;
+  background: $blue-chill-darker;
   border-radius: 13px;
   background: linear-gradient(145deg, $blue-chill, $blue-chill-dark);
   box-shadow: 15px 15px 59px $deep-sea-green, -15px -15px 59px $bright-turquoise;
